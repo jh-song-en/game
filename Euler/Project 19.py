@@ -1,6 +1,5 @@
-from datetime import date
+import sys
 
-date1 = date(1901, 1, 1)
-date2 = date(2000, 12, 31)
-dates = date2 - date1
-print((dates.days) // 7)
+print("This is the name of the script: ", sys.argv[0])
+print("Number of arguments: ", len(sys.argv))
+print("The arguments are: ", str(sys.argv))
